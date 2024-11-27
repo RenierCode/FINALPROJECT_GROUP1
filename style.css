@@ -61,7 +61,7 @@ nav img{
 
 /*----------------PORTFOLIO--------------*/
 .sub-header{
-    min-height: 60vh;
+    min-height: 10vh;
     width: 100%;
     text-align: center;
     position: relative;
@@ -133,35 +133,115 @@ nav img{
     height: 100%;
     object-fit: cover;
 }
-.dp{
-    display: block;
-    margin: 2em auto;
-    margin-bottom: 3em;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    position: relative;
-    z-index: 2;
-}
+
 /*----------------LOPE--------------*/
-.dp{
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    justify-items: center;
+.sub-header1{
+    min-height: 10vh;
+    width: 100%;
     text-align: center;
+    position: relative;
 }
-.intro{
-    width: 90%;
+.activities{
+    background-image: url(images/menu.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-left: 120px;
+    margin-right: auto;
+    width: 70%;
+    top: 35%;
+    left: 20%;
+}
+.dp {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 30px; 
+    border: 2px solid #5e4747; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    object-fit: cover; 
+    float: left;
+}
+.text{
+    text-align: left;
+    margin-left: 170px;
     color: #000000;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 80px;
+    margin-bottom: auto;
+}
+.text h4{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 45px;
+    font-weight: 525;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin-bottom: 15px;
+}
+.text p{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 25px;
+    font-style: bold;
+}
+.period{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 80px;
+    font-style: bold;
+    color: #000000;
+    text-align: left;
+    margin-left: 170px;
+    margin-bottom: 100px;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff; 
+    margin-bottom: 10px;
+}
+.act-name{
     text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.act-name h6{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 60px;
+    font-style: bold;
+    color: #000000;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff; 
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.gdrive-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000000;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: white;
+    cursor: pointer;
+}
+.gdrive-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
 }
 .pdf-view{
     justify-items: center;
     text-align: center;
+    margin-bottom: 30px;
 }
